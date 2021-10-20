@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01796F"
+    tools:context=".ui.Discover">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Business"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:text="Click to see more articles related to the topic "
+                            android:textColor="@android:color/black"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Food"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:text="Click to see more articles related to the topic "
+                            android:textColor="@android:color/black"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Fashion"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:text="Click to see more articles related to the topic "
+                            android:textColor="@android:color/black"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Movies"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:text="Click to see more articles related to the topic "
+                            android:textColor="@android:color/black"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Climate"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:text="Click to see more articles related to the topic "
+                            android:textColor="@android:color/black"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+</FrameLayout>

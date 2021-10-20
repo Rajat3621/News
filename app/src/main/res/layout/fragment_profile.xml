@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.Profile"
+    android:background="#01796F">
+
+   <LinearLayout
+       android:id="@+id/profileLayout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="20dp"
+       android:orientation="vertical"
+       android:background="@drawable/layout_bg">
+
+       <ImageView
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="30dp"
+           tools:srcCompat="@drawable/untitledr" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:text="RAJAT"
+           android:textSize="18dp"
+           android:layout_margin="10dp"
+           android:textColor="#01796F"
+           android:fontFamily="@font/open_sans_semibold"/>
+
+       <View
+           android:layout_width="320dp"
+           android:layout_height="2dp"
+           android:background="#01796F"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Area of Interest"
+           android:textSize="18dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="20dp"
+           android:textColor="#01796F"
+           android:fontFamily="@font/open_sans_semibold"/>
+
+   </LinearLayout>
+
+</FrameLayout>
